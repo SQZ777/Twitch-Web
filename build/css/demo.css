@@ -1,6 +1,8 @@
+@charset "UTF-8";
 body {
   margin: 0;
   color: white;
+  font-family: '微軟正黑體', Arial, Helvetica, sans-serif;
   background-image: url("/img/bg-default.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,3 +11,29 @@ body {
 #body {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5); }
+
+.row {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center; }
+  .row .col {
+    margin-left: 40px; }
+    .row .col .Twitchimg {
+      width: 300px;
+      height: 180px; }
+    .row .col img {
+      width: 300px;
+      height: 180px; }
+    .row .col .Streamer {
+      width: 300px;
+      height: 80px;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex; }
+      .row .col .Streamer img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px; }
+      .row .col .Streamer .Streamtext .name {
+        margin-left: 15px;
+        font-size: 2em;
+        height: 50%; }
