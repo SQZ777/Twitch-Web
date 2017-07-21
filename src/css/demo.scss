@@ -1,0 +1,15 @@
+$fontcolor:white;
+body {
+    margin: 0;
+    color: $fontcolor;
+    background-image: url("/img/bg-default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: none;
+}
+
+#body {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+}
+
