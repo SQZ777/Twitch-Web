@@ -20,6 +20,7 @@ body {
     justify-content: center;
     .col {
         margin-left: 40px;
+        transition: .5s;
         .Twitchimg {
             width: 300px;
             height: 180px;
@@ -51,5 +52,9 @@ body {
                 }
             }
         }
+    }
+    .col:hover{
+        filter: brightness(1.6);
+        box-shadow: 5px 5px 5px black;
     }
 }
